@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+div.header
+{
+border: 2px solid #b8afaf;
+width:100%;
+height: 45%;
+border-radius: 9px;
+position: absolute;
+z-index: -1;
+background-image: url("header.jpg");
+
+}
+
+
+
+div.menu
+{
+
+width:100%;
+height: 7%;
+
+position: absolute;
+top: 234px;
+z-index:2;
+
+border-radius: 10px;
+background-color: #b8afaf;
+}
+
+
+
+
+
+
+a
+{
+
+color: black;
+text-decoration: none;
+text-align: "center";
+}
+
+
+div.Home
+{
+//border: 2px solid green;
+width: 80px;
+height: 34px;
+position: absolute;
+top:236px;
+left: 20px;
+//border-radius: 10px;
+background-image: url("g.jpe");
+box-shadow: 2px 2px 2px;
+z-index: 3;
+
+}
+
+div.Home:hover
+{
+//border: 2px solid green;
+width: 80px;
+height: 34px;
+position: absolute;
+top:236px;
+left: 20px;
+//border-radius: 10px;
+background-image: url("g.jpe");
+box-shadow: 2px 2px 2px;
+z-index: 3;
+padding-top:7px;
+}
+div.Services:hover
+{
+//border: 2px solid green;
+width: 81px;
+height: 34px;
+position: absolute;
+top:236px;
+left: 120px;
+//border-radius: 10px;
+background-image: url("g.jpe");
+box-shadow: 2px 2px 2px;
+z-index: 3;
+padding: 5px;
+}
+
+div.Services
+{
+//border: 2px solid green;
+width: 80px;
+height: 34px;
+position: absolute;
+top:236px;
+left: 120px;
+//border-radius: 10px;
+background-image: url("g.jpe");
+box-shadow: 2px 2px 2px;
+z-index: 3;
+}
+
+div.image
+{
+border: 2px solid blue;
+background-color: blue;
+height: 50%;
+width: 74%;
+z-index: -1;
+position: absolute;
+top: 300px;
+left: 120px;
+}
+
+
+div.body
+{
+
+height: auto;
+width: 70%;
+font-style: italic;
+position: absolute;
+top: 300px;
+left: 120px;
+z-index: -1;
+background-image: url("g.jpe");
+padding: 20px;
+}
+
+
+
+
+
+
+
+</style>
+<body>
+<div class="header">
+
+</div>
+<div class="menu">
+
+
+</div>
+<div class="Home">
+
+<a href="#"><center><b>Home</b></center></a>
+</div>
+
+<div class="Services">
+
+<a href="main.html"><center><b>Services</b></center></a>
+</div>
+
+
+<div class="body">
+<h1>Software As A Service</h1>
+<h3> Choose software which you want to use</h3>
+<form action="http://192.168.56.101/cgi-bin/saas.py">
+username<input type="text" name="user" /><br  />
+password<input type="password" name="passwd" /><br  />
+ 
+<select name="Software">
+<option value="firefox">firefox</option>
+
+<option value="gedit">gedit</option>
+
+</select>
+<br><br>
+<input type="submit" value="create>>>>>>" />
+</form>
+</div>
